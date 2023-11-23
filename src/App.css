@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.opensans{
+    font-family: 'Open Sans', sans-serif;
+}
+.playfair{
+    font-family: 'Playfair Display', serif;
+}
+.pshadow{
+    box-shadow: inset 0px -5px 13px -6px #e4e6c38e;
+}
+.feedtext:hover{
+    box-shadow: -2px 2px 5px #22181c5e;
+}
+
